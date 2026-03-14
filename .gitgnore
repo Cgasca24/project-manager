@@ -1,0 +1,10 @@
+node_modules/
+frontend/node_modules/
+gateway/node_modules/
+user-service/node_modules/
+project-service/node_modules/
+task-service/node_modules/
+notification-service/node_modules/
+.env
+dist/
+build/ 

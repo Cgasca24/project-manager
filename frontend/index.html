@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Project Manager</title>
+  <meta charset="UTF-8">
+  <title>Project Manager Phase 2</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Project Manager - Phase 2</h1>
+  <p>Arquitectura con microservicios y notificaciones en tiempo real.</p>
 
-<h1>Project Manager System</h1>
+  <button id="btn">Probar notificación</button>
+  <div id="notification-box"></div>
 
-<button onclick="loadUsers()">Load Users</button>
-
-<ul id="users"></ul>
-
-<script src="script.js"></script>
-
+  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
